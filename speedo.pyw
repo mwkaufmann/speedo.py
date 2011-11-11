@@ -19,7 +19,7 @@ class Book(object):
 
     def __init__(self):
 	    self.mark = 0
-	    self.wpm = 400
+	    self.wpm = 600
 	
 	    with open("nietzsche.txt", "r") as t:
 	        self.text = [l.strip("\n") for l in t]
